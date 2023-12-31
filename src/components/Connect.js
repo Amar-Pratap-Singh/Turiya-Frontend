@@ -15,7 +15,7 @@ export const Connect = () => {
         const fetchInviteLinks = async () => {
             try {
               // Fetch data from an API (example URL)
-                const response = await axios.get('http://localhost:5001/api/getInviteLinks');
+                const response = await axios.get('https://turiyaclubiiitb-api.onrender.com/api/getInviteLinks');
                 setLink1(response.data.link1);
                 setLink2(response.data.link2);
                 setLink3(response.data.link3);

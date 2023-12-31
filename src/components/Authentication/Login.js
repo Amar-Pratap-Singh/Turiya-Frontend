@@ -25,8 +25,7 @@ export const Login = () => {
         const formData = {email, password};
 
         try {
-            // const response = await axios.get('http://localhost:5001/api/login');
-            const response = await axios.post('http://localhost:5001/api/login', formData);
+            const response = await axios.post('https://turiyaclubiiitb-api.onrender.com/api/login', formData);
             console.log('Response from server:', response.data);
 
         } catch (error) {

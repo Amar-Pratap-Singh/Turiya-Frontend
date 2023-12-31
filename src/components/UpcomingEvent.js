@@ -24,7 +24,7 @@ export const UpcomingEvent = () => {
     const fetchImage = async () => {
       try {
         // Fetch data from an API (example URL)
-        const response = await axios.get('http://localhost:5001/api/getEventPoster');
+        const response = await axios.get('https://turiyaclubiiitb-api.onrender.com/api/getEventPoster');
 
         console.log(response.data);
 
@@ -72,7 +72,7 @@ export const UpcomingEvent = () => {
 
     setButtonText("Registering...");
 
-    let response = await axios.post("http://localhost:5001/api/registerForEvent", formDetails);
+    let response = await axios.post("https://turiyaclubiiitb-api.onrender.com/api/registerForEvent", formDetails);
 
     console.log(response);
 
