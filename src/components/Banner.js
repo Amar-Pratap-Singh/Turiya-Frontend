@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/core/TuriyaLogoB.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -57,9 +56,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome To Turiya</span>
                 <h1>{`The Spiritual Club of IIITB`}</h1> 
-                {/* <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1> */}
+                {/* <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span> */}
                   <p>
-                  From guided meditation sessions to inclusive book clubs, we provide a range of activities aimed at fostering inner peace, self-discovery, and connection. Whether you're an experienced seeker or someone taking their first steps on the spiritual journey, our community values and respects all backgrounds and beliefs. 
+                  From guided meditation to physical yoga sessions, we provide a range of activities aimed at fostering inner peace, self-discovery, and connection. Whether you're an experienced seeker or someone taking their first steps on the spiritual journey, our community values and respects all backgrounds and beliefs. 
                   </p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}

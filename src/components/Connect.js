@@ -42,13 +42,13 @@ export const Connect = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Join Turiya WA group</Nav.Link>
+                      <Nav.Link eventKey="first">Turiya WA Group</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Join Turiya Chanting Group</Nav.Link>
+                      <Nav.Link eventKey="second">Turiya Meditation Group</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Subscribe to Turiya Channel</Nav.Link>
+                      <Nav.Link eventKey="third">Turiya Channel</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -59,7 +59,7 @@ export const Connect = () => {
                         <p><a href={link2} target="_blank" rel="noopener noreferrer">Join</a></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                        <p><a href={link3} target="_blank" rel="noopener noreferrer">Subscribe</a></p>                        
+                        <p><a href={link3} target="_blank" rel="noopener noreferrer">Join</a></p>                        
                     </Tab.Pane>
 
                   </Tab.Content>
@@ -69,7 +69,7 @@ export const Connect = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" alt="" src={colorSharp2}></img>
     </section>
   )
 }

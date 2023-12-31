@@ -15,9 +15,7 @@ import ramasevaka from "../assets/img/members/ramasevakaPrabhu.jpeg";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Credits = () => {
   const responsive = {
@@ -49,90 +47,100 @@ export const Credits = () => {
                         <h1 className="core-team">Our Core Team</h1>
                         {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p> */}
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item ">
-                                <img src={srivigraha} alt="Image" className="credit-image"/>
-                                <h5>Srivigraha Dasa</h5>
+                            <div className="item">
+                                <img src={srivigraha} alt="" className="credit-image"/>
+                                <h4>Srivigraha Dasa</h4>
+                            </div>
+
+                            <div className="item">
+                                <img src={ramasevaka} alt="" className="credit-image"/>
+                                <h4>Rama Sevaka Dasa</h4>
                             </div>
 
                             <div className="item ">
-                                <img src={ramasevaka} alt="Image" className="credit-image"/>
-                                <h5>Rama Sevaka Dasa</h5>
-                            </div>
-
-                            <div className="item ">
-                                <img src={tarun} className="credit-image"alt="Image" />
+                                <img src={tarun} className="credit-image"alt="" />
                                 <h4>Tarun</h4>
                                 <p>Alumnus</p>
                             </div>
 
                             <div className="item ">
-                                <img src={risshi} className="credit-image"alt="Image" />
-                                <h5>Risshi</h5>
-                                <p>iMTech 5th year</p>
+                                <img src={risshi} className="credit-image"alt="" />
+                                <h4>Risshi</h4>
+                                <p>iMTech, CSE</p>
                             </div>
 
 
                             <div className="item ">
-                                <img src={dhruv} className="credit-image"alt="Image" />
-                                <h5>Dhruv</h5>
+                                <img src={dhruv} className="credit-image"alt="" />
+                                <h4>Dhruv</h4>
+                                <p>MTech, CSE</p>
                             </div>
 
 
                             <div className="item ">
-                                <img src={gopal} className="credit-image"alt="Image" />
-                                <h5>Gopal</h5>
+                                <img src={gopal} className="credit-image"alt="" />
+                                <h4>Gopal</h4>
+                                <p>Alumnus</p>
                             </div>
 
 
                             <div className="item ">
-                                <img src={suyash} className="credit-image" alt="Image" />
-                                <h5>Suyash</h5>
+                                <img src={suyash} className="credit-image" alt="" />
+                                <h4>Suyash</h4>
+                                <p>MTech, ECE</p>
                             </div>
 
                             <div className="item ">
-                                <img src={harsha}className="credit-image" alt="Image" />
-                                <h5>Harshavardhan</h5>
+                                <img src={harsha}className="credit-image" alt="" />
+                                <h4>Harshavardhan</h4>
+                                <p>iMTech, CSE</p>
                             </div>
 
                             <div className="item ">
-                                <img src={swaroop} className="credit-image" alt="Image" />
-                                <h5>Swaroop</h5>
+                                <img src={swaroop} className="credit-image" alt="" />
+                                <h4>Swaroop</h4>
+                                <p>iMTech, CSE</p>
                             </div>
 
                             <div className="item ">
-                                <img src={tarun2} className="credit-image"alt="Image" />
-                                <h5>Tarun</h5>
+                                <img src={tarun2} className="credit-image"alt="" />
+                                <h4>Tarun</h4>
+                                <p>iMTech, CSE</p>
                             </div>
 
                             <div className="item ">
-                                <img src={soumaditya} className="credit-image" alt="Image" />
-                                <h5>Soumaditya</h5>
+                                <img src={soumaditya} className="credit-image" alt="" />
+                                <h4>Soumaditya</h4>
+                                <p>MS by Research, NCSP</p>
                             </div>
 
                             <div className="item ">
-                                <img src={anindhita} className="credit-image" alt="Image" />
-                                <h5>Anindita</h5>
+                                <img src={anindhita} className="credit-image" alt="" />
+                                <h4>Anindita</h4>
+                                <p>PhD, Data science</p>
                             </div>
 
                             <div className="item ">
-                                <img src={nsp} alt="Image" className="credit-image" />
-                                <h5>NSP Koushik</h5>
+                                <img src={nsp} alt="" className="credit-image" />
+                                <h4>NSP Koushik</h4>
+                                <p>iMTech, CSE</p>
                             </div>
 
                             <div className="item ">
-                                <img src={amar} alt="Image" className="credit-image"/>
-                                <h5>Amar Pratap Singh</h5>
+                                <img src={amar} alt="" className="credit-image"/>
+                                <h4>Amar Pratap Singh</h4>
+                                <p>iMTech, CSE</p>
                             </div>
                             {/* <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Personality Development</h5>
+                                <img src={meter1} alt="" />
+                                <h4>Personality Development</h4>
                             </div> */}
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }

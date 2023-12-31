@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import axios from "axios";
@@ -76,18 +75,18 @@ export const UpcomingEvent = () => {
 
     console.log(response);
 
-    if (response.data.code == 200) {
+    if (response.data.code === 200) {
       setButtonText("Register");
       setFormDetails(formInitialDetails);
       setStatus({ succes: true, message: 'Registered Successfully for event' });
     }
-    else if (response.data.code == 400) {
+    else if (response.data.code === 400) {
       setButtonText("Register");
       setStatus({ succes: false, message: 'User with same email is already registered' });
     }
     else {
       setButtonText("Register");
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.' });
+      setStatus({ succes: false, message: 'Something went wrong, please try again later' });
     }
   };
 
