@@ -18,9 +18,9 @@ export const Login = () => {
         const password = document.getElementById("password").value;
         const rememberMe = document.getElementById("rememberMe").checked;
         
-        console.log(email);
-        console.log(password);
-        console.log(rememberMe);
+        // console.log(email);
+        // console.log(password);
+        // console.log(rememberMe);
 
         const formData = {email, password};
 

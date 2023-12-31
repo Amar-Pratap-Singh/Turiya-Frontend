@@ -25,7 +25,7 @@ export const UpcomingEvent = () => {
         // Fetch data from an API (example URL)
         const response = await axios.get('https://turiyaclubiiitb-api.onrender.com/api/getEventPoster');
 
-        console.log(response.data);
+        // console.log(response.data);
 
         if (response.data.image_url === ""){
           setUpcomingEvent(false);
@@ -36,7 +36,7 @@ export const UpcomingEvent = () => {
         image_id = image_id.substring(0, image_id.length - 17);
 
         // console.log(response.data.image_url);
-        console.log(image_id);
+        // console.log(image_id);
 
         const image_url = "https://drive.google.com/uc?id=" + image_id;
 
@@ -73,7 +73,7 @@ export const UpcomingEvent = () => {
 
     let response = await axios.post("https://turiyaclubiiitb-api.onrender.com/api/registerForEvent", formDetails);
 
-    console.log(response);
+    // console.log(response);
 
     if (response.data.code === 200) {
       setButtonText("Register");
