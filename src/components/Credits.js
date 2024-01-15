@@ -50,11 +50,13 @@ export const Credits = () => {
                             <div className="item">
                                 <img src={srivigraha} alt="" className="credit-image"/>
                                 <h4>Srivigraha Dasa</h4>
+                                <p>HOD, FOLK</p>
                             </div>
 
                             <div className="item">
                                 <img src={ramasevaka} alt="" className="credit-image"/>
                                 <h4>Rama Sevaka Dasa</h4>
+                                <p>Youth Guide, FOLK</p>
                             </div>
 
                             <div className="item ">
@@ -108,11 +110,11 @@ export const Credits = () => {
                                 <p>iMTech, CSE</p>
                             </div>
 
-                            <div className="item ">
+                            {/* <div className="item ">
                                 <img src={soumaditya} className="credit-image" alt="" />
                                 <h4>Soumaditya</h4>
                                 <p>MS by Research, NCSP</p>
-                            </div>
+                            </div> */}
 
                             <div className="item ">
                                 <img src={anindhita} className="credit-image" alt="" />

@@ -76,10 +76,13 @@ input:focus, textarea:focus, select:focus {
 
 p.success {
 	color: green;
+  margin-top: 20px;
 }
 
 p.danger {
 	color: red;
+  margin-top: 20px;
+
 }
 /************ Navbar Css ************/
 nav.navbar {
@@ -784,4 +787,9 @@ input:valid ~ label {
 .credit-image {
   border-radius: 100%;
   /* zoom: 50%; */
+}
+
+.message {
+  /* margin-top: 100px; */
+  /* text-align: center; */
 }
